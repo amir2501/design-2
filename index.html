@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Online premium clothes shop " />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="" />
+    <meta
+      name="description"
+      content="Discover world of premium uzbek National clothes on avaible price. The best products exclusively on our online shop"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gulnor</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/transparent-logo.png"
+    />
+
+    <link rel="stylesheet" href="./hamburger.css" />
+  </head>
+  <body>
+    <article class="main">
+      
+<div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="#shop">Shop</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars">Menu</i>
+    </a>
+ 
+        <!-- <div class="dropdown">
+          <button class="dropbtn">menu</button>
+          <div class="dropdown-content">
+            <a href="#img">Home</a>
+            <a href="#about">about</a>
+            <a href="./social-app-links/index.html">Contact</a>
+          </div>
+        </div> -->
+
+        
+        <div class="logo">
+          <span>Gulnor</span>
+          <img src="./images/transparent-logo.png" alt="logo" width="70" />
+        </div>
+      </div> 
+    </div>
+
+      <img src="./images/main.jpg" alt="model" id="img" />
+      <section>
+        <h1>2024 New collection</h1>
+        <p>
+          brands new 2024 collection represents beuty of Uzbekistan nation
+          history and give estetic look. Colors are relaxed and natural, there
+          are unique details therefore they have simple design
+        </p>
+
+        <ul>
+          <li>
+            <img src="./images/chopon.jpg" alt="model" />
+            <p>National Coats</p>
+            <h1>Coats</h1>
+          </li>
+          <li>
+            <img src="./images/with-bag.jpg" alt="model" />
+            <p>Unique and adorablle bags in national style</p>
+            <h1>bags</h1>
+          </li>
+          <li>
+            <img src="./images/photo-black-bacground.jpg" alt="model" />
+            <p>Our Outfits</p>
+            <h1>outfits</h1>
+          </li>
+        </ul>
+      </section>
+
+      <section class="looks">
+        <img src="./images/2-woman-mountain-2.JPG" alt="" />
+        <div class="cover-for-carusel">           
+          <div class="pic-ctn"> 
+            
+
+            <img
+              src="./images/full-outfit-removebg-preview (1).png"
+              alt="1"
+              class="pic"
+            />
+            <img
+              src="./images/full-outfit-2-removebg-preview (1).png"
+              alt="2"
+              class="pic"
+            />
+            <img
+              src="./images/full-out-fit-3-removebg-preview (1).png"
+              alt="3"
+              class="pic"
+            />
+            <img
+              src="./images/full-outfit-4-removebg-preview (1).png"
+              alt="4"
+              class="pic"
+            />
+            <img
+              src="./images/full-outfit-5-removebg-preview (1).png"
+              alt="5"
+              class="pic"
+            />
+            <img
+              src="./images/full-outfit-6-removebg-preview (1).png"
+              alt="5"
+              class="pic"
+              width="400"
+            />
+
+          </div>
+        </div>
+
+        <img
+          src="./images/photo-black-bacground.jpg"
+          alt="shoes"
+          class="hidden"
+        />
+
+        <div class="description">
+          <img src="./images/plash-no-bg.png" alt="coat" />
+          <dl>
+            <dt>
+              <h1><span> The nationality </span></h1>
+            </dt>
+            <dd>
+              <p>
+                An elegant and contemporary take on the classic uzbek shoe. Born
+                to be Unique
+              </p>
+            </dd>
+          </dl>
+        </div>
+        <img src="./images/photo-black-bacground.jpg" alt="shoes" />
+      </section>
+
+      <section class="about" id="about">
+        <h1>Gulnor icons</h1>
+        <p>
+          Instantly recognised eyes, Gulnor icons are timeless, elegant, and
+          always reminds about Uzbek nationality and friendlines.
+        </p>
+        <img src="./images/2-woman-mountain.JPG" alt="models" />
+        <span>Our selection</span>
+      </section>
+    </article>
+  </body>
+
+  <script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function () {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        // document.getElementById("navbar").style.top = "0";
+        document.getElementById("img").style.width = "80vw";
+      } else {
+        // document.getElementById("navbar").style.top = "-100px";
+        document.getElementById("img").style.width = "100vw";
+      }
+      prevScrollpos = currentScrollPos;
+    };
+    function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+  </script>
+</html>

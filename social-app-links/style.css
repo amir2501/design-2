@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  transition: all 0.3s;
+  flex-direction: column;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  background-color: #f9f5f6;
+}
+
+.profile-card {
+  background-color: #f0d2da;
+  color: #564147;
+  padding: 2rem 2.5rem;
+  border-radius: 1rem;
+}
+
+.profile-card img {
+  display: block;
+  width: 100px;
+  border-radius: 50%;
+  margin: 0.5rem auto;
+  margin-bottom: 1.5rem;
+}
+
+.profile-card h1 {
+  margin-bottom: 0.5rem;
+  font-size: 1.7rem;
+}
+
+.profile-card p {
+  font-size: 14px;
+  color: #a2616c;
+  font-weight: 400;
+}
+
+.profile-card li {
+  list-style: none;
+  background-color: #f6f5f2;
+  color: #b67162;
+  padding: 0.8rem 2.5rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+
+.profile-card li:hover {
+  background-color: #564147;
+  color: #fff4cf;
+  font-weight: 800;
+}
+
+.profile-card a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
